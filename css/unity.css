@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('../img/bg_img.png') 50% 40%/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unitylogo {
+    margin: 0 150px 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo h4{
+    font: 20px 'Arial', sans-serif;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.card-1 img {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.games {
+    display: flex;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.games h6 {
+    color: #fff;
+    font: bold 15px Arial, sans-serif;
+}
+
+.games p {
+    font: 400 15px 'Arial', sans-serif;
+    color: #999;
+}
+
+span {
+    color: orange;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.discover {
+    padding: 15px 0;
+    display: flex;
+}
+
+.discover h3 {
+    color: #fff;
+    font: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#sign h3 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+#sign {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 95%;
+}
+
+.xposition {
+    text-align: right;
+}
+
+.xposition img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px;
+    padding: 10px;
+}
+
+#sign p {
+    padding-top:20px;
+    color:#afacac;
+    span{
+      color:#6c89d3;
+      padding-left:15px;
+   }
+}
+
+#sign .formp {
+    padding: 15px 0;
+    color: #858383;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+form {
+    padding: 40px 0;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    background: #f5f5f5;
+}
+
+form .darkblue {
+    margin: 40px 0 10px 0;
+    border: none;
+    color: #fff;
+    background: #735cc7;
+    border-radius: 5px;
+    width: 100%;
+    height: 55px;
+}
+
+form .blue {
+    border: none;
+    color: #fff;
+    background: #0000ff;
+    border-radius: 5px;
+    width: 100%;
+    height: 55px;
+    margin: 20px 0;
+}
+
+@media only screen and (min-width:768px){
+
+    .container{
+       max-width:1140px;
+       margin:auto;
+       display:flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 20px;
+    } 
+    #sign{width:400px;}
+   
+ }
+
+
